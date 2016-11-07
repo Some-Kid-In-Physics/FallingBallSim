@@ -42,5 +42,5 @@ int main() { /* Calling variables for calculation */
     x=x+(v*.01);
   }
 
-  printf("The ball has fallen an estimated %.3f meters.\nThe ball's velocity is esitmated as %.3lf meters per second",x,v); /*Output result*/
+  printf("The ball has fallen an estimated %.3f meters.\nThe ball's final velocity is %.3Lf meters per second\nThe ball's final acceleration is %.3Lf meters per second squared\n",x,v,a); /*Output result*/
 }
